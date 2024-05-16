@@ -4,7 +4,7 @@
 
 ```shell
 # initialize Terraform
-terraform init -ugprade
+terraform init -upgrade
 
 # print execution plan
 terraform plan
