@@ -1,0 +1,60 @@
+# __generated__ by Terraform
+# Please review these resources and move them into your main configuration files.
+
+# __generated__ by Terraform from "5d9...28b"
+resource "docker_container" "importable-container-from-outside-terraform" {
+  # NOTE: CHANGE `attach` to `false`
+  attach                                      = null
+  cgroupns_mode                               = null
+  command                                     = ["/bin/sh"]
+  container_read_refresh_timeout_milliseconds = null
+  cpu_set                                     = null
+  cpu_shares                                  = 0
+  destroy_grace_seconds                       = null
+  dns                                         = []
+  dns_opts                                    = []
+  dns_search                                  = []
+  domainname                                  = null
+  entrypoint                                  = []
+  env                                         = null
+  gpus                                        = null
+  group_add                                   = []
+  hostname                                    = "5d9...1d7"
+  image                                       = "sha256:49b...f3e"
+  init                                        = false
+  ipc_mode                                    = "private"
+  log_driver                                  = "json-file"
+  log_opts                                    = {}
+  logs                                        = null
+  max_retry_count                             = 0
+  memory                                      = 0
+  memory_swap                                 = 0
+
+  # NOTE: CHANGE `must_run` to `false`
+  must_run                                    = false
+  name                                        = "container-from-outside-terraform"
+  network_mode                                = "default"
+  pid_mode                                    = null
+  privileged                                  = false
+  publish_all_ports                           = false
+  read_only                                   = false
+  remove_volumes                              = null
+  restart                                     = "no"
+  rm                                          = false
+  runtime                                     = "runc"
+  security_opts                               = []
+  shm_size                                    = 64
+  start                                       = null
+  stdin_open                                  = false
+  stop_signal                                 = null
+  stop_timeout                                = 0
+  storage_opts                                = {}
+  sysctls                                     = {}
+  tmpfs                                       = {}
+  tty                                         = false
+  user                                        = null
+  userns_mode                                 = null
+  wait                                        = null
+  wait_timeout                                = null
+  working_dir                                 = null
+}
