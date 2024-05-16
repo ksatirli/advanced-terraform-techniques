@@ -3,7 +3,7 @@ terraform {
   required_providers {
     # see https://registry.terraform.io/providers/bschaatsbergen/assert/0.8.0/docs
     assert = {
-      source = "bschaatsbergen/assert"
+      source  = "bschaatsbergen/assert"
       version = "0.8.0"
     }
 
