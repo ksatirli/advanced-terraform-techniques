@@ -22,6 +22,7 @@
 - [`for_each` and `count`](./2-foreach-and-count)
 - [`dynamic` blocks](./3-dynamic-blocks)
 - [`import` blocks](./4-imports)
+- [Assertions and Tests](./5-assertions-and-tests)
 
 ## Author Information
 
