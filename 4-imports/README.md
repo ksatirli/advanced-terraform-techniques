@@ -14,3 +14,15 @@ sh manual-docker-commands.sh
 
 # continue with the instructions at the bottom of `import.tf`
 ```
+
+## Terraform Configuration
+
+<!-- BEGIN_TF_DOCS -->
+### Inputs
+
+No inputs.
+
+### Outputs
+
+No outputs.
+<!-- END_TF_DOCS -->
