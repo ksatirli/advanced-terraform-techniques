@@ -19,6 +19,7 @@
 ## Scenarios
 
 - [Variable Validation](./1-variable-validation)
+- [`for_each` and `count`](./2-foreach-and-count)
 
 ## Author Information
 
