@@ -5,6 +5,7 @@
 <!-- TOC -->
 * [Advanced Terraform Techniques](#advanced-terraform-techniques)
   * [Requirements](#requirements)
+  * [Scenarios](#scenarios)
   * [Author Information](#author-information)
   * [License](#license)
 <!-- TOC -->
@@ -14,6 +15,10 @@
 * Terraform CLI `v1.8.0` (or newer)
 * HCP Terraform [account](https://app.terraform.io/signup/account)
 * Docker Desktop `v20.10.7` (or newer)
+
+## Scenarios
+
+- [Variable Validation](./1-variable-validation)
 
 ## Author Information
 
