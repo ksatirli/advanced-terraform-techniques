@@ -48,7 +48,7 @@ echo "Contents of \`${TERRAFORM_IMPORT_FILE}\`:\n"
 
 # render import configuration
 cat <<EOF > "${TERRAFORM_IMPORT_FILE}"
-# see https://developer.hashicorpdo.com/terraform/language/import
+# see https://developer.hashicorp.com/terraform/language/import
 # and https://developer.hashicorp.com/terraform/language/import/generating-configuration
 import {
   to = docker_container.importable-${DOCKER_CONTAINER_NAME}
